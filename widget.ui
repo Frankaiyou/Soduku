@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>350</width>
+    <width>346</width>
     <height>480</height>
    </rect>
   </property>
@@ -14,19 +14,20 @@
    <string>Widget</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 235);</string>
+   <string notr="true">background-color: rgb(255, 255, 245);</string>
   </property>
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
      <x>30</x>
      <y>20</y>
-     <width>288</width>
-     <height>297</height>
+     <width>272</width>
+     <height>272</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 10pt &quot;YaHeiConsola&quot;;
+selection-background-color: rgb(190, 190, 190);
 background-color: rgb(255, 255, 245);</string>
    </property>
    <property name="gridStyle">
@@ -71,14 +72,15 @@ background-color: rgb(255, 255, 245);</string>
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>130</x>
      <y>400</y>
      <width>75</width>
      <height>23</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 10pt &quot;YaHeiConsola&quot;;</string>
+    <string notr="true">font: 10pt &quot;YaHeiConsola&quot;;
+</string>
    </property>
    <property name="text">
     <string>检查</string>
